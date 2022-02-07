@@ -26,5 +26,5 @@ public class Factorization {
 		System.out.println(sb);
 
 	}
-
+	
 }
