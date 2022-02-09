@@ -27,9 +27,9 @@ public class TakeStar5 {
 	static void getStar5(int x, int y, int n, boolean b) {
 		if(b) {
 			for(int i=x;i<x+n;i++) {
-				System.out.println(x);
+				//System.out.println(x);
 				for(int j=y;j<y+n;j++) {
-					System.out.println(y);
+					//System.out.println(y);
 					arr[i][j]=' ';
 				}
 			}
@@ -38,7 +38,7 @@ public class TakeStar5 {
 		//´õÀÌ»ó ÂÉ°¶¼ö ¾ø´Â ºí·Ï
 		if(n==1) {
 			arr[x][y]='*';
-			System.out.println(x+","+y);
+			//System.out.println(x+","+y);
 			return;
 		}
 		
@@ -47,9 +47,9 @@ public class TakeStar5 {
 		int size=n/3;
 		int count =0;
 		for(int i=x; i<x+n;i+=size) {
-			System.out.println(x);
+			//System.out.println(x);
 			for(int j=y;j<y+n;j+=size) {
-				System.out.println(y);
+				//System.out.println(y);
 				count++;
 				if(count==5) {
 					getStar5(i,j,size,true);
