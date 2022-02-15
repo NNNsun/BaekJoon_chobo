@@ -7,6 +7,7 @@ import java.io.InputStreamReader;
 public class Statistics {
 
 	public static void main(String[] args) throws  IOException {
+		System.out.println("½ÇÇà");
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		
 		int n = Integer.parseInt(br.readLine());
