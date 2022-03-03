@@ -23,6 +23,7 @@ public class IronStick {
 				buf.push('(');
 				continue;
 			}
+			// ()¿œ∂ß
 			if(str.charAt(i)==')') {
 				buf.pop();
 				if(str.charAt(i-1)=='(') {
