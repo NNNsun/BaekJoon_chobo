@@ -33,7 +33,6 @@ public class Postfix2 {
 			}
 
 			else {
-				// 현재 연산자가 '('가 아니면서 현재 연산자보다 우선순위가 높으면 stack에 있는 연산자를 꺼내준다
 				while (!stack.isEmpty() && precedence(str.charAt(i)) != 0
 						&& precedence(stack.peek()) >= precedence(str.charAt(i))) {
 					sb.append(stack.pop());
